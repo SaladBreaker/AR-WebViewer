@@ -15,7 +15,7 @@ def burger2():
 
 @app.route("/panda")
 def panda():
-    return render_template("index.html", model_path="/models/pandas.glb")
+    return render_template("index.html", model_path="/models/panda.glb")
 
 
 if __name__ == "__main__":
